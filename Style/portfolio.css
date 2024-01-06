@@ -42,9 +42,11 @@ nav {
 }
 
 .nav-title {
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 800px;
+
+
 }
 
 nav>ul {
@@ -99,7 +101,10 @@ nav a {
 }
 
 /* main section styles */
-
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
@@ -107,4 +112,12 @@ nav a {
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
- }
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
